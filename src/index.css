@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.disable {
+  display: none;
+}
+
+:root {
+  --background-color: #FFFFFF;
+  --text-color: #373737;
+  --primary-color: #550DC9;
+  --second-primary-color: #440BA0;
+  --error-color: #FF6363;
+  --grey-color: #A3A3A3;
+  --border-color: #ECECEC;
+  --placeholder-color: #CACACA;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,35 @@
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-right: 14px;
+  padding: 4px;
+  min-width: 50px;
+  max-width: 100px;
+  width: auto;
+}
+.tag p {
+  margin: 0;
+}
+
+.tag-total {
+  background-color: #FEF6FF;
+  color: var(--primary-color);
+}
+
+.tag-todo {
+  background-color: #F6FCFF;
+  color: #0D9CC9;
+}
+
+.tag-completed {
+  background-color: #F6FFF9;
+  color: #0DC958;
+}
+
+/*# sourceMappingURL=tag.css.map */

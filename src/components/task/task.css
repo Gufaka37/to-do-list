@@ -1,0 +1,66 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 16px;
+}
+.task label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-color);
+  margin-right: auto;
+}
+.task input {
+  position: absolute;
+  opacity: 0;
+}
+.task input + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+}
+.task input + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+.task input:checked + label:before {
+  background: url("/src/svgs/checked.svg") 0 0 no-repeat var(--primary-color);
+  background-position: center;
+  border: 1px solid var(--primary-color);
+}
+
+.taskActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 48px;
+}
+
+.taskAction {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 48px;
+}
+
+.task-completed label {
+  text-decoration-line: line-through;
+  color: var(--grey-color);
+}
+
+/*# sourceMappingURL=task.css.map */
