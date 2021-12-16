@@ -1,0 +1,17 @@
+.sidebar {
+  height: 100%;
+  width: 52px;
+  background-color: var(--primary-color);
+  position: fixed;
+  margin-top: 64px;
+  z-index: 1;
+}
+
+.tasksMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  height: 32px;
+  background-color: var(--second-primary-color);
+}
